@@ -1,0 +1,45 @@
+Metadata-Version: 1.1
+Name: django-L4
+Version: 0.1
+Summary: Una simple aplicacion para mostrar paises.
+Home-page: http://www.tareapaisesL4.com/
+Author: Carlos Perez
+Author-email: carlosperezurena@gmail.com
+License: BSD License
+Description: ====
+        L4
+        ====
+        
+        L4 es una tarea de la materia de ProgramaciÃ³n 2 que lista los paises del mundo.
+        
+        Inicio Rapido
+        -------------
+        1. AÃ±ada "L4" a tus INSTALLED_APPS, de esta manera:
+        
+        	INSTALLED_APPS = (
+        	...
+        	'L4',
+        	)
+        	
+        2. Incluya L4 al URLconf en tu proyecto busca urls.py asi:
+        	 url(r'^L4/', include('L4.urls')),
+        	 
+        3. Corra 'python manage.py migrate' para crear los modelos de L4.
+        
+        4. Inicia el develompment server y visita http://127.0.0.1:8000/admin/ para crear L4 (necesitas tener el Admin app habilitada).
+        
+        5. Visita http://127.0.0.1:8000/L4/ para participar en L4.
+        
+        
+Platform: UNKNOWN
+Classifier: Enviroment :: Web Enviroment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operathing System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Topic :: Internet :: www/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
